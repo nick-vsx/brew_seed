@@ -3,6 +3,8 @@ tap "homebrew/bundle"
 brew "autoconf"
 # Tool for generating GNU Standards-compliant Makefiles
 brew "automake"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@3"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Versatile and fast Unicode/ASCII/ANSI graphics renderer
@@ -34,6 +36,8 @@ brew "tree"
 # Simple terminal image viewer written in Rust
 brew "viu"
 cask "font-hack-nerd-font"
+# System monitor for the menu bar
+cask "stats"
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
